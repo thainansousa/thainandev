@@ -1,8 +1,13 @@
 import Head from "next/head";
+import { useEffect } from "react";
 
 import styles from "./styles/contact.module.scss"
 
 export default function Contact() {
+
+    function handleAlert() {
+        alert("Essa opção se encontra em desenvolvimento")
+    }
     return (
         <div>
             <Head>
@@ -22,7 +27,9 @@ export default function Contact() {
                 <label>Mensagem:</label>
                 <textarea name="message"></textarea>
 
-                <button type="button">Enviar</button>
+                <button type="button" onClick={handleAlert}>Enviar</button>
+
+                <span>Página em desenvolvimento</span>
             </form>
         </div>
     )
