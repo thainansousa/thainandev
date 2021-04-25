@@ -1,0 +1,17 @@
+.wrapper{
+    display: flex;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% - 6rem);
+    background-color: #202024ea;
+    padding: 0 8rem;
+    .header{
+        h1{
+            font-size: 4rem;
+            color: var(--white);
+        }
+    }
+}

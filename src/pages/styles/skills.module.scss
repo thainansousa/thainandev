@@ -1,0 +1,54 @@
+.content{
+    margin-top: 1rem;
+    .skills{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-size: 1.8rem;
+            color: var(--gray-200);
+        }
+        div{
+            display: flex;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        div.softskills{
+            flex-direction: column;
+            gap: 0.8rem;
+            span{
+                width: fit-content;
+                transition: 400ms;
+                font-size: 1.5rem;
+                position: relative;
+                &:hover{
+                    color: var(--blue-color);
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        top: 2rem;
+                        bottom: 0;
+                        left: 0;
+                        height: 3px;
+                        background-color: var(--blue-color);
+                        animation: subli 1s forwards;
+                    }
+                }
+            }
+        }
+    }
+    button{
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+        font-size: 0;
+        border: none;
+    }
+}
+
+@keyframes subli{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
