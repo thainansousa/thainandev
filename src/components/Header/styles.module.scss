@@ -43,6 +43,9 @@
 
                 small{
                     animation: toleft 1s forwards;
+                    @media (max-width: 768px){
+                        animation: none;
+                    }
                 }
             }
 

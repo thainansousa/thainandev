@@ -28,7 +28,7 @@ export default function Skills() {
             <div className={styles.content}>
                 <div className={styles.skills}>
                     <h2>Hard Skills</h2>
-                    <div>
+                    <div className={styles.hardSkills}>
                         <button>
                             <DiHtml5 size={42} color={"#e44f26"} />
                         </button>

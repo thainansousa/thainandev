@@ -6,11 +6,19 @@
         h2{
             font-size: 1.8rem;
             color: var(--gray-200);
+            @media (max-width: 425px){
+                font-size: 1.6rem;
+            }
         }
         div{
             display: flex;
             gap: 0.5rem;
             margin: 1rem 0;
+        }
+        div.hardSkills{
+            @media (max-width: 768px){
+                flex-wrap: wrap;
+            }
         }
         div.softskills{
             flex-direction: column;
