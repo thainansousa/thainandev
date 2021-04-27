@@ -24,7 +24,7 @@ export default function Contact() {
                 <label>E-mail:</label>
                 <input type="text" name="email" />
                 <label>Assunto:</label>
-                <input type="text" name="assunto" />
+                <input type="text" name="subject" />
                 <label>Mensagem:</label>
                 <textarea name="message"></textarea>
 

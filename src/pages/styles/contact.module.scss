@@ -2,11 +2,14 @@
     font-size: 1.2rem;
 }
 .form{
-    width: 60%;
+    width: 50%;
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    @media (max-width: 768px){
+        width: 60%;
+    }
     @media (max-width: 425px){
         width: 100%;
     }
