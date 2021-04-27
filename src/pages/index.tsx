@@ -17,7 +17,9 @@ export default function Home() {
       </div>
       <div className={styles.content}>
         <BsArrowUpLeft size={26} />
-        <span>Me conheça mais navegando nas guias ao lado ou acesse o meu <a>linkedin</a></span>
+        <span>Me conheça mais navegando nas guias ao lado ou acesse o meu
+          <a href="https://www.linkedin.com/in/thainan-sousa-0347a3180/" target="_blank">linkedin</a>
+        </span>
       </div>
     </div>
   )

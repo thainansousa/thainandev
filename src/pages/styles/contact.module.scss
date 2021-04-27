@@ -1,15 +1,12 @@
 .msg{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .form{
-    width: 40%;
+    width: 60%;
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    @media (max-width: 768px){
-        width: 60%;
-    }
     @media (max-width: 425px){
         width: 100%;
     }
@@ -41,5 +38,12 @@
         background-color: var(--blue-color);
         color: var(--white);
         font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg{
+            margin-left: 5px;
+        }
     }
 }

@@ -9,6 +9,8 @@ span{
     a{
         color: var(--blue-color);
         transition: 400ms;
+        margin-left: 5px;
+        text-decoration: none;
         &:hover{
             text-decoration-line: underline;
             cursor: pointer;

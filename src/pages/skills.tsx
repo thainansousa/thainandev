@@ -29,40 +29,40 @@ export default function Skills() {
                 <div className={styles.skills}>
                     <h2>Hard Skills</h2>
                     <div className={styles.hardSkills}>
-                        <button>
+                        <button title="HTML5">
                             <DiHtml5 size={42} color={"#e44f26"} />
                         </button>
-                        <button>
+                        <button title="CSS3">
                             <DiCss3 size={42} color={"#1572b6"} />
                         </button>
-                        <button>
+                        <button title="JAVASCRIPT">
                             <DiJavascript1 size={42} color={"#ffca28"} />
                         </button>
-                        <button>
+                        <button title="REACT">
                             <DiReact size={42} color={"#5ed3f3"} />
                         </button>
-                        <button>
+                        <button title="SASS">
                             <DiSass size={42} color={"#c76494"} />
                         </button>
-                        <button>
+                        <button title="BOOTSTRAP">
                             <DiBootstrap size={42} color={"#5e3e8b"} />
                         </button>
-                        <button>
+                        <button title="NODE.JS">
                             <DiNodejsSmall size={42} color={"#6fa560"} />
                         </button>
-                        <button>
+                        <button title="MYSQL">
                             <DiMysql size={42} color={"#367e9e"} />
                         </button>
-                        <button>
+                        <button title="GIT">
                             <DiGit size={42} color={"#e84e31"} />
                         </button>
-                        <button>
+                        <button title="NPM">
                             <DiNpm size={42} color={"#c53635"} />
                         </button>
-                        <button>
+                        <button title="YARN">
                             <FaYarn size={42} color={"#2b8ab5"} />
                         </button>
-                        <button>
+                        <button title="LINUX">
                             <DiLinux size={42} color={"#000000"} />
                         </button>
                     </div>

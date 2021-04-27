@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useEffect } from "react";
+import { FiSend } from "react-icons/fi"
 
 import styles from "./styles/contact.module.scss"
 
@@ -27,9 +28,7 @@ export default function Contact() {
                 <label>Mensagem:</label>
                 <textarea name="message"></textarea>
 
-                <button type="button" onClick={handleAlert}>Enviar</button>
-
-                <span>Página em desenvolvimento</span>
+                <button type="button" onClick={handleAlert}>Enviar <FiSend /></button>
             </form>
         </div>
     )
