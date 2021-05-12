@@ -7,6 +7,7 @@ import {
     DiReact, DiSass,
     DiBootstrap,
     DiNodejsSmall,
+    DiMongodb,
     DiMysql,
     DiGit,
     DiNpm,
@@ -52,6 +53,9 @@ export default function Skills() {
                         </button>
                         <button title="MYSQL">
                             <DiMysql size={42} color={"#367e9e"} />
+                        </button>
+                        <button title="MONGODB">
+                            <DiMongodb size={42} color={"#429543"} />
                         </button>
                         <button title="GIT">
                             <DiGit size={42} color={"#e84e31"} />
